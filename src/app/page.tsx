@@ -21,7 +21,7 @@ export default function Home() {
           <h3 className="font-semibold font-poppins text-3xl mt-1">Dabang</h3>
         </div>
 
-        <h2 className="font-md text-3xl w-[205px] h-[50px] font-semibold">
+        <h2 className="font-md text-4xl w-[205px] h-[50px] font-semibold">
           Dashboard
         </h2>
 
