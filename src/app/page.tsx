@@ -21,11 +21,11 @@ export default function Home() {
           <h3 className="font-semibold font-poppins text-3xl mt-1">Dabang</h3>
         </div>
 
-        <h2 className="font-md text-4xl w-[205px] h-[50px] font-semibold">
+        <h2 className="font-md  ml-9 rounded-[16px] text-4xl w-[290px] h-[50px] font-semibold">
           Dashboard
         </h2>
 
-        <form action="" className="bg-yellow-500 w-[513px] h-[60px] relative">
+        <form action="" className="bg-yellow-500 w-[400px] h-[60px] relative">
           <input
             type="text"
             name=""
@@ -72,7 +72,11 @@ export default function Home() {
         <aside className="w-[20%] bg-white mx-auto ">
           {/* <img src="../images/01.jpg" className="w-[252px] h-[64px]" /> */}
           <div className="bg-[#5d5fef] flex gap-2 py-3 mt-5 text-[white] text-[18px] w-[80%] h-[64px] rounded-[16px] mx-auto">
-            <img src="../images/graphy.png" alt=""  className="ml-4 w-[32px] h-[32px]" />
+            <img
+              src="../images/graphy.png"
+              alt=""
+              className="ml-4 w-[32px] h-[32px]"
+            />
             <h1 className="mt-2">Dashboard</h1>
           </div>
 
@@ -183,6 +187,25 @@ export default function Home() {
               </h3>
             </a>
           </div>
+
+          <div className="mx-auto w-[238px] h-[259px] bg-[#5d5fef] text-[center] py-6 rounded-[20px]">
+            <img
+              src="../images/Logo.png"
+              alt=""
+              className="w-[48-px] h-[48px] mx-auto mt-5"
+            />
+            <h3 className="text-[20px] leading-[16px] mt-5 text-center font-semibold text-[white]  ">
+              Dabang Pro
+            </h3>
+            <p className="font-[medium] text-xs leading-[16px] text-[white] text-center mt-6">
+              Get access to all features in tumbas
+            </p>
+            <button
+              className="h-[40px] w-[136px] bg-[#fff] text-[#5d5fed] text-[16px] leading-[24px] rounded-[8px] ml-12 mt-6 "
+            >
+              Get Pro
+            </button>
+          </div>
         </aside>
 
         {/* display main content section */}
@@ -199,8 +222,7 @@ export default function Home() {
                     lineHeight: "32px",
                   }}
                 >
-                  Today&apos;
-                  s Sale
+                  Today&apos; s Sale
                 </h2>
                 <h4
                   className="text-[16px] leading-7 font-[400]"
