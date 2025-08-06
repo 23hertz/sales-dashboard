@@ -238,7 +238,7 @@ export default function Home() {
               <div className="flex flex-row gap-3 ">
                 <article className="p-2 my-2 rounded-md w-[130px] h-[184px] rounded-[16px] bg-[#ffe2e5]">
                   <img
-                    src="../images/icon1.png"
+                    src="../images/topLogo.png"
                     className="w-[30px] h-[30px] mt-3"
                     alt=""
                   />
